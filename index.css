@@ -1,9 +1,11 @@
+
 main {
     height: 100vh;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
+
 
 section {
     height: 100vh;
@@ -29,7 +31,7 @@ background-blend-mode: screen;
 
 }
 #sect-3{
-   color: #05445E;
+    color: #05445E;
     height:100vh;
     
     width: 100%;
@@ -48,11 +50,20 @@ background-blend-mode: screen;
 #project-tile{
     background-color: #ffffff73;
     width: 5%;
+    min-width: 10rem;
     border: none;
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
 }
 #profile-pic{
-    max-height: 40vh;
+    max-width: 30%;
+    min-width: 20%;
     width: auto;
+}
+#card-group{
+    overflow-y: scroll;
+}
+
+p {
+    -webkit-text-size-adjust: auto;
 }
