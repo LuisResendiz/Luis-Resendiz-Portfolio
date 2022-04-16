@@ -19,16 +19,21 @@
   <body>
     <main>
                 <div class="justify-content-around align-items-center bg-dark text-white
-                  d-flex align-items-start fixed-top pt-1" style="max-width: 100%">
+                  d-flex align-items-start fixed-top pt-1">
                   <h3 class="">Luis Resendiz Portfolio</h3>
-                  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
-                    <ul class="navbar-nav navbar-collapse">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#welcome-section">Home</a></li>
-                      <li class="nav-item"> <a class="nav-link" href="#about">About</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
+                  <nav id="navbar" class="navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarCollapse"> 
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#welcome-section">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                      </ul>
+                    </div>
                   </nav>
                 </div>
             
@@ -38,13 +43,13 @@
                   <div class="d-flex align-items-center justify-content-around" id="sect-1">
                     <!-- style="height:
                      100vh;background-color: #D4F1F4;">  --> 
-                    <div>
+                    <div class="col-md-5 col-sm-3 col-4 mx-2">
                       <h1 class="display-4 fw-normal"> Hi there! <br> I'm Luis Resendiz.</h1>
                       <p class="lead fw-normal" style="color: #05445E"> And this is my
                         portfolio...</p>
                     </div>
-                    <div class="column col-2">
-                      <div class="row">
+                    <div class="flex-column col-sm-2 col-5">
+                      <div class="flex-row">
                         <div class="card p-2 align-items-center my-2" style="max-height:
                           40vh; background-color: aliceblue; border-style: none;">
                           <a
@@ -75,14 +80,13 @@
             
                 <section id="about">
             
-                  <div class="d-flex align-items-center justify-content-around" id="sect-2">
-            
-                    <div class="flex-column mx-5">
+                  <div class="d-flex align-items-center justify-content-around py-3" id="sect-2">
+
+                    <div class="flex-column my-3 col-md-6 col-6 col-sm-6 col-lg-8 align-items-center justify-content-center text-justify">  
                       <img
-                        src="https://lh3.googleusercontent.com/pw/AM-JKLX8vKjtM-wxVE3CU8tgNBcxbV1_ojMdtfPB32dydVOJEIIoQnqANbY-0bPTRQRxgyBtlBg04dHMYQONO43rueGiLU3KdWsLi1ud6gr5tEyCrNreZEpLn5U1FnyHwrV6duzgLv0NxIOdFAU0pUFf8IdjYA=s800-no?authuser=0"
-                        alt="..." class="img-thumbnail rounded-circle"">
-                    </div>
-                    <div class="flex-column mx-5">
+                      src="https://lh3.googleusercontent.com/pw/AM-JKLX8vKjtM-wxVE3CU8tgNBcxbV1_ojMdtfPB32dydVOJEIIoQnqANbY-0bPTRQRxgyBtlBg04dHMYQONO43rueGiLU3KdWsLi1ud6gr5tEyCrNreZEpLn5U1FnyHwrV6duzgLv0NxIOdFAU0pUFf8IdjYA=s800-no?authuser=0"
+                      alt="..." class="img-thumbnail rounded-circle" id="profile-pic">
+                      
                       <h1 class="display-4 fw-normal"> About Me.</h1>
                       <p class="lead fw-normal"> I'm a Computer Systems Engineer studying a
                         Masters in Data Science. I have previous experience in Industrial
@@ -99,7 +103,7 @@
                             <span class="badge badge-pill bg-info">Tableau</span>
                           </p>
                         </div>
-                        <div class="flex-column mx-5">
+                        <div class="flex-column col-sm-3 col-md-3  col-3">
                           <h1 class="display-4 fw-normal"> Education.</h1>
                           <p class="lead fw-bold" style="color: #011b16"> <h4>BE. Computer
                               Systems.</h4> Universidad Tecnológica Latinoamericana en
