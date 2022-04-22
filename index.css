@@ -50,7 +50,7 @@ background-blend-mode: screen;
 #project-tile{
     background-color: #ffffff73;
     width: 5%;
-    min-width: 10rem;
+    min-width: 12rem;
     border: none;
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
@@ -67,3 +67,24 @@ background-blend-mode: screen;
 p {
     -webkit-text-size-adjust: auto;
 }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 30, 128); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(87, 216, 255); 
+  }
