@@ -56,8 +56,8 @@ background-blend-mode: screen;
     border-bottom-left-radius: 5%;
 }
 #profile-pic{
-    max-width: 30%;
-    min-width: 20%;
+    max-width: 50%;
+    min-width: 30%;
     width: auto;
 }
 #card-group{
